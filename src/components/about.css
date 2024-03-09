@@ -1,0 +1,71 @@
+
+
+.skills img{
+    width: 100px;
+    height: 50px;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+.container {
+    max-width: 1240px;
+    margin: auto;
+    padding: 0 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-type: y mandatory;
+    height: 100vh; 
+}
+
+
+
+.page-title {
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+
+.about-content {
+    margin-bottom: 20px; 
+}
+
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+
+.custom-shape-divider-bottom-1709834275 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1709834275 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 62px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1709834275 .shape-fill {
+    fill: #030712;
+}

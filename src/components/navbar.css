@@ -1,0 +1,30 @@
+
+ul{
+    background: #030712;
+}
+.hamburger{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .hamburger{
+        display: block;
+        width: 100%;
+        color: #fff;
+        background-color: #030712;
+        margin-right: 20px;
+    }
+    .nav-menu{
+        position: absolute;
+        flex-direction: column;
+        top: 50px;
+        left: -1000px;
+        height: 100vh;
+        background: rgba(3, 7, 18, 0.95);
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+}
